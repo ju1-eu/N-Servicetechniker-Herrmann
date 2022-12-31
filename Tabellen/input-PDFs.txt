@@ -1,26 +1,6 @@
-% ju 16-Dez-2022 input-PDFs.txt 
+% ju 31-Dez-2022 input-PDFs.txt 
 
 \chapter{PDF}% book, print anpassen
-
-% -------
-\section{E-FLT-01-Grundlagen-Elektrotechnik}\label{sec:E-FLT-01-Grundlagen-Elektrotechnik}\index{E-FLT-01-Grundlagen-Elektrotechnik}
-\includepdf[pages=-]{Tabellen/PDF/E-FLT-01-Grundlagen-Elektrotechnik.pdf}
-
-% -------
-\section{E-Keywords-01-Grundlagen-Elektrotechnik}\label{sec:E-Keywords-01-Grundlagen-Elektrotechnik}\index{E-Keywords-01-Grundlagen-Elektrotechnik}
-\includepdf[pages=-]{Tabellen/PDF/E-Keywords-01-Grundlagen-Elektrotechnik.pdf}
-
-% -------
-\section{E-Keywords-FS-Elektrik}\label{sec:E-Keywords-FS-Elektrik}\index{E-Keywords-FS-Elektrik}
-\includepdf[pages=-]{Tabellen/PDF/E-Keywords-FS-Elektrik.pdf}
-
-% -------
-\section{KaWa-1-Elektrotechnik-GL}\label{sec:KaWa-1-Elektrotechnik-GL}\index{KaWa-1-Elektrotechnik-GL}
-\includepdf[pages=-]{Tabellen/PDF/KaWa-1-Elektrotechnik-GL.pdf}
-
-% -------
-\section{Karten-Grundlagen-Elektrotechnik}\label{sec:Karten-Grundlagen-Elektrotechnik}\index{Karten-Grundlagen-Elektrotechnik}
-\includepdf[pages=-]{Tabellen/PDF/Karten-Grundlagen-Elektrotechnik.pdf}
 
 % -------
 \section{Messmethodik-Schaltkreis}\label{sec:Messmethodik-Schaltkreis}\index{Messmethodik-Schaltkreis}

@@ -1,151 +1,67 @@
 % ---------------------------------
 % Inhalt vom Projektverzeichnis.
 % 'archiv/Projekt-Inhalt.txt'
-% ju 16-Dez-2022 Projekt-Inhalt.txt
+% ju 31-Dez-2022 Projekt-Inhalt.txt
 % ---------------------------------
 % 
-/Users/jan/daten/kfz-meister/T2-Fachtheorie/Elektrotechnik/Folien-Mitschrift/N-Elektrotechnik-Herrmann
--rw-r--r--  1 jan  staff   7,3M 16 Dez 19:56 N-Elektrotechnik-Herrmann-print.pdf
--rw-r--r--  1 jan  staff    12K 16 Dez 19:56 N-Elektrotechnik-Herrmann-print.bbl
--rw-r--r--@ 1 jan  staff   2,0K 16 Dez 16:01 index.html
+/Users/jan/daten/kfz-meister/T1-Kfz-Servicetechniker/Servicetechniker/Folien-Mitschrift/N-Servicetechniker-Herrmann
+-rwxr-xr-x@ 1 jan  staff   6,7K 31 Dez 12:30 projekt.sh
+-rw-r--r--@ 1 jan  staff   6,0K 31 Dez 12:30 README.md
 -rw-r--r--  1 jan  staff   130B 17 Sep 18:20 git-log.txt
--rw-r--r--@ 1 jan  staff   6,0K 13 Aug 15:56 README.md
--rwxr-xr-x@ 1 jan  staff   6,7K 13 Aug 15:56 projekt.sh
--rw-r--r--@ 1 jan  staff   978B 29 Mai  2022 N-Elektrotechnik-Herrmann-print.tex
+-rw-r--r--@ 1 jan  staff   978B 29 Mai  2022 N-Servicetechniker-Herrmann-print.tex
 -rw-rw-r--@ 1 jan  staff   1,3K 28 Mai  2022 Makefile
 
 texPandoc:
 total 0
-drwxr-xr-x   2 jan  staff    64B 16 Dez 19:57 .
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
+drwxr-xr-x   2 jan  staff    64B 31 Dez 13:10 .
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
 
 html:
-total 752
-drwxr-xr-x  37 jan  staff   1,2K 16 Dez 19:57 .
--rw-r--r--   1 jan  staff   8,6K 16 Dez 19:57 alle-pics.html
--rw-r--r--   1 jan  staff   8,6K 16 Dez 19:57 alle-pics.html-e
--rw-r--r--   1 jan  staff   1,5K 16 Dez 19:57 alle-PDFs.html
--rw-r--r--   1 jan  staff   1,5K 16 Dez 19:57 alle-PDFs.html-e
--rw-r--r--   1 jan  staff   4,6K 16 Dez 19:57 U04-Pruefungshinweise-ABS.html
--rw-r--r--   1 jan  staff   4,6K 16 Dez 19:57 U04-Pruefungshinweise-ABS.html-e
--rw-r--r--   1 jan  staff   2,0K 16 Dez 19:57 U03-Pruefungshinweise-Automatikgetriebe.html
--rw-r--r--   1 jan  staff   2,0K 16 Dez 19:57 U03-Pruefungshinweise-Automatikgetriebe.html-e
--rw-r--r--   1 jan  staff   2,1K 16 Dez 19:57 U02-Motor-startet-nicht-Loesung.html
--rw-r--r--   1 jan  staff   2,1K 16 Dez 19:57 U02-Motor-startet-nicht-Loesung.html-e
--rw-r--r--   1 jan  staff   3,2K 16 Dez 19:57 U01-Schaltplan-AudiA3-Loesung.html
--rw-r--r--   1 jan  staff   3,2K 16 Dez 19:57 U01-Schaltplan-AudiA3-Loesung.html-e
--rw-r--r--   1 jan  staff   5,4K 16 Dez 19:57 Sensoren.html
--rw-r--r--   1 jan  staff   5,4K 16 Dez 19:57 Sensoren.html-e
--rw-r--r--   1 jan  staff   5,7K 16 Dez 19:57 Push-up-Training.html
--rw-r--r--   1 jan  staff   5,7K 16 Dez 19:57 Push-up-Training.html-e
--rw-r--r--   1 jan  staff   2,0K 16 Dez 19:57 Pruefungshinweise-Automatikgetriebe.html
--rw-r--r--   1 jan  staff   2,0K 16 Dez 19:57 Pruefungshinweise-Automatikgetriebe.html-e
--rw-r--r--   1 jan  staff    13K 16 Dez 19:57 P04-ABS.html
--rw-r--r--   1 jan  staff    13K 16 Dez 19:57 P04-ABS.html-e
--rw-r--r--   1 jan  staff    12K 16 Dez 19:57 FS-Elektrik.html
--rw-r--r--   1 jan  staff    12K 16 Dez 19:57 FS-Elektrik.html-e
--rw-r--r--   1 jan  staff    15K 16 Dez 19:57 Diagnose.html
--rw-r--r--   1 jan  staff    15K 16 Dez 19:57 Diagnose.html-e
--rw-r--r--   1 jan  staff    13K 16 Dez 19:57 05-Datenbus.html
--rw-r--r--   1 jan  staff    13K 16 Dez 19:57 05-Datenbus.html-e
--rw-r--r--   1 jan  staff    11K 16 Dez 19:57 04-Generator.html
--rw-r--r--   1 jan  staff    11K 16 Dez 19:57 04-Generator.html-e
--rw-r--r--   1 jan  staff    17K 16 Dez 19:57 03-Hochvolt.html
--rw-r--r--   1 jan  staff    17K 16 Dez 19:57 03-Hochvolt.html-e
--rw-r--r--   1 jan  staff   6,1K 16 Dez 19:57 02-Sensoren-und-Aktoren.html
--rw-r--r--   1 jan  staff   6,1K 16 Dez 19:57 02-Sensoren-und-Aktoren.html-e
--rw-r--r--   1 jan  staff    22K 16 Dez 19:57 01-Grundlagen-Elektrotechnik.html
--rw-r--r--   1 jan  staff    22K 16 Dez 19:57 01-Grundlagen-Elektrotechnik.html-e
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rw-r--r--@  1 jan  staff   6,0K 13 Aug 16:29 .DS_Store
+total 160
+drwxr-xr-x   8 jan  staff   256B 31 Dez 13:10 .
+-rw-r--r--   1 jan  staff   5,4K 31 Dez 13:10 Sensoren.html
+-rw-r--r--   1 jan  staff   5,4K 31 Dez 13:10 Sensoren.html-e
+-rw-r--r--   1 jan  staff    12K 31 Dez 13:10 FS-Elektrik.html
+-rw-r--r--   1 jan  staff    12K 31 Dez 13:10 FS-Elektrik.html-e
+-rw-r--r--   1 jan  staff    15K 31 Dez 13:10 Diagnose.html
+-rw-r--r--   1 jan  staff    15K 31 Dez 13:10 Diagnose.html-e
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
 
 cms-server:
-total 624
-drwxr-xr-x  33 jan  staff   1,0K 16 Dez 19:57 .
--rw-r--r--   1 jan  staff   3,6K 16 Dez 19:57 U04-Pruefungshinweise-ABS.html
--rw-r--r--   1 jan  staff   3,6K 16 Dez 19:57 U04-Pruefungshinweise-ABS.html-e
--rw-r--r--   1 jan  staff   935B 16 Dez 19:57 U03-Pruefungshinweise-Automatikgetriebe.html
--rw-r--r--   1 jan  staff   935B 16 Dez 19:56 U03-Pruefungshinweise-Automatikgetriebe.html-e
--rw-r--r--   1 jan  staff   1,1K 16 Dez 19:56 U02-Motor-startet-nicht-Loesung.html
--rw-r--r--   1 jan  staff   1,1K 16 Dez 19:56 U02-Motor-startet-nicht-Loesung.html-e
--rw-r--r--   1 jan  staff   2,0K 16 Dez 19:56 U01-Schaltplan-AudiA3-Loesung.html
--rw-r--r--   1 jan  staff   2,0K 16 Dez 19:56 U01-Schaltplan-AudiA3-Loesung.html-e
--rw-r--r--   1 jan  staff   4,0K 16 Dez 19:56 Sensoren.html
--rw-r--r--   1 jan  staff   4,0K 16 Dez 19:56 Sensoren.html-e
--rw-r--r--   1 jan  staff   4,6K 16 Dez 19:56 Push-up-Training.html
--rw-r--r--   1 jan  staff   4,6K 16 Dez 19:56 Push-up-Training.html-e
--rw-r--r--   1 jan  staff   935B 16 Dez 19:56 Pruefungshinweise-Automatikgetriebe.html
--rw-r--r--   1 jan  staff   935B 16 Dez 19:56 Pruefungshinweise-Automatikgetriebe.html-e
--rw-r--r--   1 jan  staff    13K 16 Dez 19:56 P04-ABS.html
--rw-r--r--   1 jan  staff    13K 16 Dez 19:56 P04-ABS.html-e
--rw-r--r--   1 jan  staff    11K 16 Dez 19:56 FS-Elektrik.html
--rw-r--r--   1 jan  staff    11K 16 Dez 19:56 FS-Elektrik.html-e
--rw-r--r--   1 jan  staff    14K 16 Dez 19:56 Diagnose.html
--rw-r--r--   1 jan  staff    14K 16 Dez 19:56 Diagnose.html-e
--rw-r--r--   1 jan  staff    12K 16 Dez 19:56 05-Datenbus.html
--rw-r--r--   1 jan  staff    12K 16 Dez 19:56 05-Datenbus.html-e
--rw-r--r--   1 jan  staff    11K 16 Dez 19:56 04-Generator.html
--rw-r--r--   1 jan  staff    11K 16 Dez 19:56 04-Generator.html-e
--rw-r--r--   1 jan  staff    16K 16 Dez 19:56 03-Hochvolt.html
--rw-r--r--   1 jan  staff    16K 16 Dez 19:56 03-Hochvolt.html-e
--rw-r--r--   1 jan  staff   4,9K 16 Dez 19:56 02-Sensoren-und-Aktoren.html
--rw-r--r--   1 jan  staff   4,9K 16 Dez 19:56 02-Sensoren-und-Aktoren.html-e
--rw-r--r--   1 jan  staff    20K 16 Dez 19:56 01-Grundlagen-Elektrotechnik.html
--rw-r--r--   1 jan  staff    20K 16 Dez 19:56 01-Grundlagen-Elektrotechnik.html-e
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rw-r--r--@  1 jan  staff   6,0K 13 Aug 16:29 .DS_Store
+total 128
+drwxr-xr-x   8 jan  staff   256B 31 Dez 13:10 .
+-rw-r--r--   1 jan  staff   4,0K 31 Dez 13:10 Sensoren.html
+-rw-r--r--   1 jan  staff   4,0K 31 Dez 13:10 Sensoren.html-e
+-rw-r--r--   1 jan  staff    11K 31 Dez 13:10 FS-Elektrik.html
+-rw-r--r--   1 jan  staff    11K 31 Dez 13:10 FS-Elektrik.html-e
+-rw-r--r--   1 jan  staff    14K 31 Dez 13:10 Diagnose.html
+-rw-r--r--   1 jan  staff    14K 31 Dez 13:10 Diagnose.html-e
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
 
 cms-lokal:
-total 592
-drwxr-xr-x  33 jan  staff   1,0K 16 Dez 19:56 .
--rw-r--r--   1 jan  staff   3,6K 16 Dez 19:56 U04-Pruefungshinweise-ABS.html
--rw-r--r--   1 jan  staff   3,6K 16 Dez 19:56 U04-Pruefungshinweise-ABS.html-e
--rw-r--r--   1 jan  staff   935B 16 Dez 19:56 U03-Pruefungshinweise-Automatikgetriebe.html
--rw-r--r--   1 jan  staff   935B 16 Dez 19:56 U03-Pruefungshinweise-Automatikgetriebe.html-e
--rw-r--r--   1 jan  staff   1,1K 16 Dez 19:56 U02-Motor-startet-nicht-Loesung.html
--rw-r--r--   1 jan  staff   1,1K 16 Dez 19:56 U02-Motor-startet-nicht-Loesung.html-e
--rw-r--r--   1 jan  staff   2,0K 16 Dez 19:56 U01-Schaltplan-AudiA3-Loesung.html
--rw-r--r--   1 jan  staff   2,0K 16 Dez 19:56 U01-Schaltplan-AudiA3-Loesung.html-e
--rw-r--r--   1 jan  staff   4,0K 16 Dez 19:56 Sensoren.html
--rw-r--r--   1 jan  staff   4,0K 16 Dez 19:56 Sensoren.html-e
--rw-r--r--   1 jan  staff   4,6K 16 Dez 19:56 Push-up-Training.html
--rw-r--r--   1 jan  staff   4,6K 16 Dez 19:56 Push-up-Training.html-e
--rw-r--r--   1 jan  staff   935B 16 Dez 19:56 Pruefungshinweise-Automatikgetriebe.html
--rw-r--r--   1 jan  staff   935B 16 Dez 19:56 Pruefungshinweise-Automatikgetriebe.html-e
--rw-r--r--   1 jan  staff    12K 16 Dez 19:56 P04-ABS.html
--rw-r--r--   1 jan  staff    12K 16 Dez 19:56 P04-ABS.html-e
--rw-r--r--   1 jan  staff    11K 16 Dez 19:56 FS-Elektrik.html
--rw-r--r--   1 jan  staff    11K 16 Dez 19:56 FS-Elektrik.html-e
--rw-r--r--   1 jan  staff    14K 16 Dez 19:56 Diagnose.html
--rw-r--r--   1 jan  staff    14K 16 Dez 19:56 Diagnose.html-e
--rw-r--r--   1 jan  staff    12K 16 Dez 19:56 05-Datenbus.html
--rw-r--r--   1 jan  staff    12K 16 Dez 19:56 05-Datenbus.html-e
--rw-r--r--   1 jan  staff    10K 16 Dez 19:56 04-Generator.html
--rw-r--r--   1 jan  staff    10K 16 Dez 19:56 04-Generator.html-e
--rw-r--r--   1 jan  staff    15K 16 Dez 19:56 03-Hochvolt.html
--rw-r--r--   1 jan  staff    15K 16 Dez 19:56 03-Hochvolt.html-e
--rw-r--r--   1 jan  staff   4,9K 16 Dez 19:56 02-Sensoren-und-Aktoren.html
--rw-r--r--   1 jan  staff   4,9K 16 Dez 19:56 02-Sensoren-und-Aktoren.html-e
--rw-r--r--   1 jan  staff    20K 16 Dez 19:56 01-Grundlagen-Elektrotechnik.html
--rw-r--r--   1 jan  staff    20K 16 Dez 19:56 01-Grundlagen-Elektrotechnik.html-e
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rw-r--r--@  1 jan  staff   6,0K 13 Aug 17:05 .DS_Store
+total 128
+drwxr-xr-x   8 jan  staff   256B 31 Dez 13:10 .
+-rw-r--r--   1 jan  staff   4,0K 31 Dez 13:10 Sensoren.html
+-rw-r--r--   1 jan  staff   4,0K 31 Dez 13:10 Sensoren.html-e
+-rw-r--r--   1 jan  staff    11K 31 Dez 13:10 FS-Elektrik.html
+-rw-r--r--   1 jan  staff    11K 31 Dez 13:10 FS-Elektrik.html-e
+-rw-r--r--   1 jan  staff    14K 31 Dez 13:10 Diagnose.html
+-rw-r--r--   1 jan  staff    14K 31 Dez 13:10 Diagnose.html-e
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+
+img-out:
+total 0
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+drwxr-xr-x   2 jan  staff    64B 31 Dez 13:06 .
 
 md:
-total 312
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rw-r--r--@  1 jan  staff   6,0K 16 Dez 19:55 .DS_Store
-drwxr-xr-x@ 20 jan  staff   640B 16 Dez 19:55 .
--rw-r--r--@  1 jan  staff   8,7K 16 Dez 16:05 05-Datenbus.md
--rw-r--r--@  1 jan  staff    11K 10 Dez 17:58 03-Hochvolt.md
--rw-r--r--@  1 jan  staff   3,9K  7 Okt 08:15 02-Sensoren-und-Aktoren.md
--rw-r--r--@  1 jan  staff   6,0K  6 Okt 13:20 04-Generator.md
--rw-r--r--   1 jan  staff   9,9K  2 Sep 18:36 literatur-kfz.bib
--rw-r--r--@  1 jan  staff    12K 13 Aug 15:00 01-Grundlagen-Elektrotechnik.md
--rw-r--r--@  1 jan  staff   1,2K  6 Jul 17:26 U02-Motor-startet-nicht-Loesung.md
+total 192
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+-rw-r--r--@  1 jan  staff   6,0K 31 Dez 12:28 .DS_Store
+drwxr-xr-x@ 13 jan  staff   416B 31 Dez 12:27 .
+-rw-r--r--   1 jan  staff    10K 19 Dez 17:22 literatur-kfz.bib
 -rw-r--r--@  1 jan  staff    12K 12 Jun  2022 Diagnose.md
 -rw-r--r--@  1 jan  staff   3,1K 11 Jun  2022 Sensoren.md
--rw-r--r--@  1 jan  staff   1,8K  7 Jun  2022 U01-Schaltplan-AudiA3-Loesung.md
 -rw-r--r--@  1 jan  staff   7,5K 28 Mai  2022 FS-Elektrik.md
 -rw-r--r--@  1 jan  staff   901B 18 Dez  2021 Makefile
 -rw-r--r--   1 jan  staff   582B  6 Jun  2021 _output.yaml
@@ -154,93 +70,61 @@ drwxr-xr-x@ 20 jan  staff   640B 16 Dez 19:55 .
 -rw-r--r--   1 jan  staff   6,9K 13 Jan  2021 literatur-sport.bib
 -rw-r--r--   1 jan  staff   6,0K 13 Jan  2021 github.css
 
+img-in:
+total 24
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+-rw-r--r--@  1 jan  staff    10K 31 Dez 12:27 .DS_Store
+drwxr-xr-x   3 jan  staff    96B 31 Dez 12:27 .
+
 images:
 total 3672
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rw-r--r--@  1 jan  staff    10K 16 Dez 16:00 .DS_Store
-drwxr-xr-x  16 jan  staff   512B 16 Dez 16:00 .
-drwxr-xr-x  23 jan  staff   736B 16 Dez 15:57 CAN-Bus
-drwxr-xr-x  20 jan  staff   640B 28 Okt 17:55 P06-ABS
-drwxr-xr-x  10 jan  staff   320B  6 Okt 18:11 Sensoren
-drwxr-xr-x  33 jan  staff   1,0K  6 Okt 12:47 Generator
-drwxr-xr-x  27 jan  staff   864B  5 Okt 16:59 HV
-drwxr-xr-x@ 54 jan  staff   1,7K 13 Aug 14:15 Skizze
-drwxr-xr-x  26 jan  staff   832B 28 Mai  2022 Logo
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+-rw-r--r--@  1 jan  staff    10K 31 Dez 12:27 .DS_Store
+drwxr-xr-x  11 jan  staff   352B 31 Dez 12:27 .
+drwxr-xr-x@  6 jan  staff   192B 31 Dez 12:26 Skizze
 -rw-r--r--@  1 jan  staff   1,2M 28 Mai  2022 cover.pdf
-drwxr-xr-x   3 jan  staff    96B  5 Feb  2022 Video
+drwxr-xr-x   3 jan  staff    96B 28 Mai  2022 Video
+drwxr-xr-x  23 jan  staff   736B 13 Mai  2022 Logo
 -rw-r--r--@  1 jan  staff   210K 19 Dez  2021 Messmethodik.pdf
 -rw-r--r--@  1 jan  staff   294K 19 Dez  2021 Messmethodik.jpg
 -rw-r--r--@  1 jan  staff    43K 25 Okt  2021 titelbild.pdf
 -rw-r--r--@  1 jan  staff   779B 25 Okt  2021 titelbild.svg
 
-Artikel:
-total 176
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-U02-Motor-startet-nicht-Loesung.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-U01-Schaltplan-AudiA3-Loesung.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-Sensoren.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-Push-up-Training.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-Pruefungshinweise-Automatikgetriebe.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-P04-ABS.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-FS-Elektrik.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-Diagnose.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-05-Datenbus.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-04-Generator.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-03-Hochvolt.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-02-Sensoren-und-Aktoren.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-02-Grundlagen-Elektrotechnik2.tex
--rw-r--r--   1 jan  staff   2,2K 16 Dez 16:01 N-Keywords-01-Grundlagen-Elektrotechnik.tex
-drwxr-xr-x  23 jan  staff   736B  6 Nov 22:01 .
--rw-r--r--   1 jan  staff   2,2K 22 Okt 17:55 N-Keywords-U04-Pruefungshinweise-ABS.tex
--rw-r--r--   1 jan  staff   2,2K 22 Okt 17:55 N-Keywords-U03-Pruefungshinweise-Automatikgetriebe.tex
--rw-r--r--   1 jan  staff   2,2K  6 Jul 19:18 N-Keywords-Pruefung-Automatikgetriebe.tex
--rw-r--r--   1 jan  staff   2,3K  6 Jun  2022 E-Keywords-FS-Elektrik.tex
--rw-r--r--   1 jan  staff   2,3K  6 Jun  2022 E-Keywords-02-Grundlagen-Elektrotechnik2.tex
--rw-r--r--   1 jan  staff   2,3K  6 Jun  2022 E-Keywords-01-Grundlagen-Elektrotechnik.tex
--rw-r--r--@  1 jan  staff   6,0K 28 Mai  2022 .DS_Store
-
-img-out:
-total 24
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
-drwxr-xr-x   5 jan  staff   160B 16 Dez 16:01 Spannungsfallmessung
-drwxr-xr-x   5 jan  staff   160B 16 Dez 16:01 Ruhestrom-Spannungsfall
-drwxr-xr-x   4 jan  staff   128B 16 Dez 16:01 Nennquerschnitt
-drwxr-xr-x   5 jan  staff   160B 16 Dez 16:01 Messmethodik
--rw-r--r--   1 jan  staff    74B 16 Dez 16:01 pics-liste.txt
--rw-r--r--@  1 jan  staff   6,0K 30 Sep 15:11 .DS_Store
-drwxr-xr-x   8 jan  staff   256B 30 Sep 15:11 .
-
 archiv:
-total 728
--rw-r--r--   1 jan  staff    12K 16 Dez 19:57 Projekt-Inhalt.txt
--rw-r--r--@  1 jan  staff   2,6K 16 Dez 19:57 inhalt.tex
--rw-r--r--   1 jan  staff   4,8K 16 Dez 19:57 input-img.txt
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rw-r--r--   1 jan  staff   9,6K 16 Dez 16:01 Pics-files.tex
--rw-r--r--   1 jan  staff   531B 16 Dez 16:01 Quellcode-files.tex
--rw-r--r--@  1 jan  staff   6,0K 22 Okt 17:59 .DS_Store
-drwxr-xr-x  10 jan  staff   320B 17 Sep 18:21 .
--rw-r--r--   1 jan  staff    43K 17 Sep 18:21 md.zip
--rw-r--r--   1 jan  staff   267K 17 Sep 18:21 content.zip
+total 72
+-rw-r--r--   1 jan  staff   290B 31 Dez 13:11 Projekt-Inhalt.txt
+-rw-r--r--@  1 jan  staff   1,8K 31 Dez 13:11 inhalt.tex
+-rw-r--r--   1 jan  staff   1,3K 31 Dez 13:11 input-img.txt
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+-rw-r--r--@  1 jan  staff   6,0K 31 Dez 12:25 .DS_Store
+drwxr-xr-x   8 jan  staff   256B 31 Dez 12:25 .
+-rw-r--r--   1 jan  staff   9,6K 16 Dez 19:57 Pics-files.tex
+-rw-r--r--   1 jan  staff   531B 16 Dez 19:57 Quellcode-files.tex
+
+Artikel:
+total 16
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+-rw-r--r--@  1 jan  staff   6,0K 31 Dez 12:25 .DS_Store
+drwxr-xr-x   3 jan  staff    96B 31 Dez 12:25 .
 
 content:
 total 360
-drwxr-xr-x@ 17 jan  staff   544B 16 Dez 19:57 tex
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rw-r--r--   1 jan  staff   4,6K 16 Dez 19:56 abstract.aux
--rw-r--r--   1 jan  staff   4,5K 16 Dez 19:56 titlepage.aux
--rw-r--r--@  1 jan  staff   2,4K 28 Okt 16:01 inhalt.tex
+drwxr-xr-x@  6 jan  staff   192B 31 Dez 13:10 tex
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+-rw-r--r--@  1 jan  staff   710B 31 Dez 12:39 inhalt.tex
+-rw-r--r--@  1 jan  staff   1,3K 31 Dez 12:37 titlepage.tex
+-rw-r--r--@  1 jan  staff   1,2K 31 Dez 12:36 abstract.tex
+-rw-r--r--@  1 jan  staff   379B 31 Dez 12:34 meta.tex
+drwxr-xr-x@ 28 jan  staff   896B 25 Dez 12:24 .
+-rw-r--r--   1 jan  staff    10K 19 Dez 17:22 literatur-kfz.bib
+-rw-r--r--   1 jan  staff   4,6K 16 Dez 19:57 abstract.aux
+-rw-r--r--   1 jan  staff   4,5K 16 Dez 19:57 titlepage.aux
 -rw-r--r--   1 jan  staff   8,0K 30 Sep 15:11 .DS_Store
-drwxr-xr-x@ 28 jan  staff   896B  2 Sep 18:43 .
--rw-r--r--   1 jan  staff   9,9K  2 Sep 18:36 literatur-kfz.bib
--rw-r--r--@  1 jan  staff   415B 17 Jul 19:14 meta.tex
 -rw-r--r--@  1 jan  staff   2,2K  7 Jun  2022 x-Keywords-0x-Thema.tex
 -rw-r--r--   1 jan  staff   4,4K 29 Mai  2022 meta.aux
--rw-r--r--@  1 jan  staff   1,3K 29 Mai  2022 titlepage.tex
 -rw-r--r--   1 jan  staff   4,2K 28 Mai  2022 praeambel-artikel.aux
 -rw-rw-r--@  1 jan  staff    11K 28 Mai  2022 hpi-praeambel.sty
 -rw-r--r--   1 jan  staff    13K 28 Mai  2022 titlepage.log
--rw-r--r--@  1 jan  staff   1,3K 28 Mai  2022 abstract.tex
 drwxr-xr-x   6 jan  staff   192B 28 Mai  2022 beispiele
 -rw-r--r--@  1 jan  staff   961B 28 Mai  2022 main-book.tex
 -rw-r--r--@  1 jan  staff   959B 28 Mai  2022 main-print.tex
@@ -254,21 +138,11 @@ drwxr-xr-x   6 jan  staff   192B 28 Mai  2022 beispiele
 -rw-r--r--@  1 jan  staff   9,9K 13 Jan  2021 literatur.bib
 -rw-r--r--   1 jan  staff   6,9K 13 Jan  2021 literatur-sport.bib
 
-img-in:
-total 24
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rw-r--r--@  1 jan  staff    10K 30 Sep 15:11 .DS_Store
-drwxr-xr-x   7 jan  staff   224B 15 Jun  2022 .
-drwxr-xr-x   3 jan  staff    96B 15 Jun  2022 Spannungsfallmessung
-drwxr-xr-x   3 jan  staff    96B 15 Jun  2022 Ruhestrom-Spannungsfall
-drwxr-xr-x   3 jan  staff    96B 15 Jun  2022 Nennquerschnitt
-drwxr-xr-x   4 jan  staff   128B 28 Mai  2022 Messmethodik
-
 scripteBash:
 total 240
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
--rwxr-xr-x@  1 jan  staff   2,7K 13 Aug 16:02 gitversionieren.sh
--rwxr-xr-x@  1 jan  staff   4,7K 13 Aug 15:56 www.sh
+-rwxr-xr-x@  1 jan  staff   2,7K 31 Dez 13:10 gitversionieren.sh
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+-rwxr-xr-x@  1 jan  staff   4,7K 31 Dez 12:41 www.sh
 drwxr-xr-x  21 jan  staff   672B  7 Jun  2022 .
 -rwxr-xr-x@  1 jan  staff   3,4K  7 Jun  2022 artikel-anlegen.sh
 -rw-r--r--@  1 jan  staff    10K 28 Mai  2022 .DS_Store
@@ -290,7 +164,7 @@ drwxr-xr-x  21 jan  staff   672B  7 Jun  2022 .
 
 code:
 total 72
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
 -rw-r--r--@  1 jan  staff   6,0K 30 Sep 15:11 .DS_Store
 drwxr-xr-x  11 jan  staff   352B 28 Mai  2022 .
 drwxr-xr-x  13 jan  staff   416B 24 Mär  2022 .ipynb_checkpoints
@@ -304,17 +178,17 @@ drwxr-xr-x  13 jan  staff   416B 24 Mär  2022 .ipynb_checkpoints
 
 Tabellen:
 total 40
--rw-r--r--   1 jan  staff   1,5K 16 Dez 19:57 input-PDFs.txt
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
+-rw-r--r--   1 jan  staff   553B 31 Dez 13:11 input-PDFs.txt
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
+drwxr-xr-x   7 jan  staff   224B 31 Dez 12:28 PDF
 -rw-r--r--   1 jan  staff   8,0K 30 Sep 15:11 .DS_Store
 drwxr-xr-x  62 jan  staff   1,9K  7 Jun  2022 Muster
-drwxr-xr-x  12 jan  staff   384B 29 Mai  2022 PDF
 -rw-r--r--@  1 jan  staff   394B 28 Mai  2022 PDFs.tex
 drwxr-xr-x   7 jan  staff   224B 18 Dez  2021 .
 
 css:
 total 24
-drwxr-xr-x@ 31 jan  staff   992B 16 Dez 19:56 ..
+drwxr-xr-x@ 28 jan  staff   896B 31 Dez 13:07 ..
 -rw-r--r--   1 jan  staff   6,0K 13 Jan  2021 github.css
 drwxr-xr-x   4 jan  staff   128B 13 Jan  2021 .
 -rw-r--r--   1 jan  staff   1,3K 13 Jan  2021 design.css
