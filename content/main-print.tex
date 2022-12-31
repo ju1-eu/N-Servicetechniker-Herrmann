@@ -1,0 +1,36 @@
+\documentclass[fleqn,parskip=half]{scrbook} % <= Druckversion: "scrbook" / Bildschirmversion: "scrreprt"
+\usepackage[ngerman,biber]{content/hpi-praeambel} % <= Sprache der Arbeit ("ngerman"/"english"), Biblatex-Backend ("bibtex"/"biber")
+
+% ABOUT
+\include{content/meta} 
+
+% DOCUMENT
+\bibliography{content/literatur}
+\bibliography{content/literatur-kfz}
+\bibliography{content/literatur-sport}
+
+
+\begin{document}
+	
+	% (Haupt-)Titelseite, Abstract, ggf. Danksagung & Inhaltsverzeichnis
+	\pagenumbering{roman}
+	\include{content/titlepage}
+	\ifisbook\cleardoubleemptypage\fi\include{content/abstract}
+	\tableofcontents
+	\cleardoublepage
+
+	% Textteil
+	\pagenumbering{arabic}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\input{content/inhalt}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+	% Bibliographie
+	\ifisbook\cleardoubleemptypage\fi
+	\phantomsection\addcontentsline{toc}{chapter}{\refname}
+	\printbibliography
+	
+\end{document}

@@ -1,0 +1,74 @@
+% ju 7-7-22
+\documentclass[a4paper,16pt,fleqn,parskip=half]{scrartcl}
+\include{content/praeambel-beamer}
+
+%\usepackage[left=2cm,right=2cm,top=1cm,bottom=1cm,includeheadfoot]{geometry}
+%\usepackage[left=4cm,right=2cm,top=1cm, bottom=1cm,includeheadfoot]{geometry}
+%\usepackage[left=6cm,right=1cm,top=1cm, bottom=1cm,includeheadfoot]{geometry}
+\usepackage[landscape,left=2cm,right=2cm,top=2cm,bottom=1cm,includefoot]{geometry}%quer
+\usepackage{tikz} 
+
+% eigene Farbe definieren
+% Adobe Prozessfarben: CMYK: 100,50,0,35 -> 1,0.5,0,0.35
+\definecolor{orange}{cmyk}{0,0.55,0.61,0}   % 0,55,61,0
+\definecolor{blau5}{cmyk}{1,0.77,0.1,0.01}  % 100,77,10,
+\definecolor{rot5}{cmyk}{0.22,1,1,0.19}     % 22,100,100,19
+\definecolor{grau2}{cmyk}{0,0,0,0.1}        % 0,0,0,40
+\definecolor{blau}{cmyk}{0.93,0.66,0,0.21}% 
+
+%% Kapitelüberschriften farbig
+\usepackage{sectsty}
+\sectionfont{\color{blau5}}
+\subsectionfont{\color{blau5}}
+
+% Literatur
+\bibliography{content/literatur}
+\bibliography{content/literatur-kfz}
+\bibliography{content/literatur-sport}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\name}{Jan Unger}
+\newcommand{\thema}{Beamer}% anpassen!!!!!
+\newcommand{\quelle}{\name}
+\newcommand{\website}{https://bw-ju.de/}
+\newcommand{\github}{https://github.com/ju1-eu}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\ihead{\textbf{Quelle:} \quelle}%{Kopfzeile innen}
+%\ohead{\textbf{Datum:} \today}  %{Kopfzeile außen}
+\ifoot{\color{gray}{\textbf{Thema:} \thema}}  %{Fußzeile  innen}
+\ofoot{\color{gray}{\thepage}}%{Fußzeile  außen}
+
+\title{\thema}
+\author{\name}
+\date{\today}
+
+\begin{document}
+\begin{titlepage}
+\thispagestyle{empty}
+    % background picture
+	\begin{tikzpicture}[overlay, remember picture]
+	\node[anchor=north east, %south west s
+		xshift=+0.2cm, %-0.2
+		yshift=+0.2cm] %-0.2
+		at (current page.north east)%south west
+		{\includegraphics[width =1.3\linewidth, height = 1\linewidth]{images/Cover}};%titelbild 
+	\end{tikzpicture}
+
+    \vspace{11.6cm}
+    \color{white} %\rule[0.3cm]{\linewidth}{3pt}	\par
+    \huge \textbf{Thema: \thema}
+    \vspace{0.1cm}
+    \large \par Version: \today %\name
+	\setcounter{page}{1}
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\input{content/tex/0x-beamer-Thema}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\clearpage
+    \printbibliography[category=cited]
+\end{document}

@@ -1,0 +1,97 @@
+% ju 26-5-22 Lerntools.tex
+\documentclass[a4paper,12pt,fleqn,parskip=half]{scrartcl}
+\include{content/praeambel-artikel}   
+
+\usepackage[left=2cm,right=2cm,top=1cm,bottom=1cm,includeheadfoot]{geometry}
+%\usepackage[left=4cm,right=2cm,top=1cm, bottom=1cm,includeheadfoot]{geometry}
+%\usepackage[landscape=true,left=2cm,right=2cm,top=1cm,bottom=1cm,includeheadfoot]{geometry}%quer
+
+% eigene Farbe definieren
+% Adobe Prozessfarben: CMYK: 100,50,0,35 -> 1,0.5,0,0.35
+\definecolor{orange}{cmyk}{0,0.55,0.61,0}   % 0,55,61,0
+\definecolor{blau5}{cmyk}{1,0.77,0.1,0.01}  % 100,77,10,
+\definecolor{rot5}{cmyk}{0.22,1,1,0.19}     % 22,100,100,19
+\definecolor{grau2}{cmyk}{0,0,0,0.1}        % 0,0,0,40
+\definecolor{blau}{cmyk}{0.93,0.66,0,0.21}% 
+
+% Literatur
+\bibliography{content/literatur}
+\bibliography{content/literatur-kfz}
+\bibliography{content/literatur-sport}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\name}{Jan Unger}% anpassen!!!!!
+\newcommand{\thema}{Lerntools}% anpassen!!!!!
+\newcommand{\quelle}{\name}
+\newcommand{\website}{https://bw-ju.de/}
+\newcommand{\github}{https://github.com/ju1-eu}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ihead{\textbf{Quelle:} \quelle}%{Kopfzeile innen}
+\ohead{\textbf{Datum:} \today}  %{Kopfzeile außen}
+\ifoot{\textbf{Thema:} \thema}  %{Fußzeile  innen}
+\ofoot{Seite {\thepage} von {\pageref{LastPage}}}%{Fußzeile  außen}
+
+\title{\thema}
+\author{\name}
+\date{\today}
+
+\begin{document}
+	%\thispagestyle{empty}
+	%\maketitle
+	%\newpage
+	%\setcounter{page}{1}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{center}
+		\textbf{\Large \thema}\\%14pt
+		\vspace{0.8em}
+		%\datum	
+		%\qrcode[hyperlink,level=Q,version=2,height=1cm]{\website}
+		\qrcode[hyperlink,level=Q,version=2,height=1cm]{\github}
+	\end{center}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\subsection*{Kompetenz = Wissen + Können}%\label{sec:Deadline}\index{Deadline}
+	% Checkliste
+	\begin{itemize} 
+		\item [$\square$] \textbf{Verhältnis}: Wissen abrufen \& wiederholen (60:40) 
+		\begin{itemize} 
+			\item z. B. 1,5~h $\to$ (Ü) 1:00~h und (W) 30~Min.
+		\end{itemize}
+		\item [$\square$] \textbf{ABC-Liste} - Assoziatives Denken, (Ü) 3~Min., Durchgänge (25x)
+		\begin{itemize} 
+			\item Regeln: Kategorisieren (Was ist gleich?), mit den Augen wandern, mehr oder leer, Listen nummerieren und sammeln
+			\item Vergleichen (Wissensaustausch), Fragen beantworten, Googeln $\to$ Erweitern des eigenen Wissensnetzes
+		\end{itemize}
+		\item [$\square$] \textbf{KaWa} - Wortbild (DIN-A4/A3) - Zusammenhang $\to$ >>Wissen verknüpfen, nicht isolieren!<<
+		\item [$\square$] \textbf{Mäntylä-Liste} $\to$ Assoziieren zu Begriffen, später  Rekonstruieren der Begriffe
+		\begin{itemize} 
+			\item vor Lerneinheit, (Ü) 10~Min.
+			\item Fokus auf das Wesentliche $\to$ Abfragen nach Stunden / Woche / Monat
+		\end{itemize}
+		\item [$\square$] \textbf{FLT} - Fragen mit Lückentext für Antwort generieren, (Ü) 25~Min. und (W) 15~Min.
+		\item [$\square$] Fragen formulieren vor Lerneinheit $\to$ Geist öffnen, Aufmerksamkeit, Interesse wecken
+		\begin{itemize} 
+			\item Fragen ist der Schlüssel zum Begreifen / Merken
+		\end{itemize}
+		\item [$\square$] \textbf{Lernkarten} $\to$ Begriff erklären oder umschreiben um zu erraten, Kategorisieren
+		\item [$\square$] \textbf{Hörtexte} (Rhetoriktraining)  $\to$ Aktiv \& passiv Hören $\to$ unbewusst Lernen (Inzidentales Lernen, nebenbei), Durchgänge (5x)
+		\begin{itemize} 
+			\item [\textcircled{1}] Vorlesen und Audio- oder Videoaufzeichnung
+			\item [\textcircled{2}] vertiefendes Lesen (1. so schnell wie möglich + 2. halblaut)
+			\item [\textcircled{3}] Mental - Training (lautlos Lesen)
+			\item [\textcircled{4}] Vorlesen und Audio- oder Videoaufzeichnung (Unterschiede zur nächsten Übungsphase wahrnehmen)
+		\end{itemize}
+		\item [$\square$] Stegreifrede (Rhetoriktraining) $\to$ eine Minute zum Thema reden
+		\item [$\square$] \textbf{Beamer} - Vortrag (Rhetoriktraining)
+		\begin{itemize} 
+			\item Durchgänge (1-15-25x) je mit Audio- oder Videoaufzeichnung
+		\end{itemize}
+	\end{itemize}
+
+	%\input{content/tex/.tex}
+
+    % Bibliographie
+    \printbibliography[category=cited]
+\end{document}

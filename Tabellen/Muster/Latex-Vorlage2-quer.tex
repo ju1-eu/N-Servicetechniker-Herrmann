@@ -1,0 +1,155 @@
+% ju 28-4-22 
+\documentclass[a4paper,fontsize=14pt,DIV=calc,fleqn,parskip=half]{scrartcl}
+\include{content/praeambel-artikel}  
+
+%\usepackage[left=2cm,right=2cm,top=1cm,bottom=1cm,includeheadfoot]{geometry}
+%\usepackage[left=4cm,right=2cm,top=1cm, bottom=1cm,includeheadfoot]{geometry}
+%\usepackage[left=6cm,right=1cm,top=1cm, bottom=1cm,includeheadfoot]{geometry}
+\usepackage[landscape=true,left=2cm,right=2cm,top=1cm,bottom=1cm,includeheadfoot]{geometry}%quer
+
+% eigene Farbe definieren
+% Adobe Prozessfarben: CMYK: 100,50,0,35 -> 1,0.5,0,0.35
+\definecolor{orange}{cmyk}{0,0.55,0.61,0}   % 0,55,61,0
+\definecolor{blau5}{cmyk}{1,0.77,0.1,0.01}  % 100,77,10,
+\definecolor{rot5}{cmyk}{0.22,1,1,0.19}     % 22,100,100,19
+\definecolor{grau2}{cmyk}{0,0,0,0.1}        % 0,0,0,40
+\definecolor{blau}{cmyk}{0.93,0.66,0,0.21}% 
+
+\addtokomafont{section}{\color{blau5}}
+
+% Literatur
+\bibliography{content/literatur}
+\bibliography{content/literatur-kfz}
+\bibliography{content/literatur-sport}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\name}{Jan Unger}% anpassen!!!!!
+\newcommand{\thema}{\LaTeX -Vorlage}% anpassen!!!!!
+\newcommand{\quelle}{\name}
+\newcommand{\website}{https://bw-ju.de/}
+\newcommand{\github}{https://github.com/ju1-eu}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\ihead{\textbf{Quelle:} \quelle}%{Kopfzeile innen}
+%\ohead{\textbf{Datum:} \today}  %{Kopfzeile außen}
+\ifoot{\textbf{Thema:} \thema}  %{Fußzeile  innen}
+\ofoot{Seite {\thepage} von {\pageref{LastPage}}}%{Fußzeile  außen}
+
+\title{\color{blau5}{\thema}}
+\author{\name}
+\date{\today}
+
+\begin{document}
+	\thispagestyle{empty}
+	\maketitle
+	\newpage
+	\setcounter{page}{1}
+
+	\section*{Listen}%\label{sec:listen}\index{Listen}
+	% Checkliste
+	\begin{itemize}[label=\checkmark] %\itemsep -2pt
+		\item Check
+	\end{itemize}
+
+	% Checkliste
+	\begin{itemize} 
+		\item [$\square$] Check
+	\end{itemize}
+
+	% Liste
+	\begin{itemize} 
+		\item Punkt
+	\end{itemize}
+	% Liste numeriert
+	\begin{enumerate} 
+		\item Liste numeriert
+		\item Punkt
+	\end{enumerate}
+
+	\newpage
+	\section*{Abbildungen}%\label{sec:Abbildungen}\index{Abbildungen}
+
+	Liste
+
+	\begin{itemize} 
+		\item Punkt
+		\item Punkt
+		\item Punkt
+		\item Punkt
+	\end{itemize}
+			
+	\begin{figure}[!h]
+	\centering
+	\subcaptionbox{Logo 1 \label{logo1}}
+	{\includegraphics[width=0.25\textwidth]{images/Logo/Logo1}}
+	\subcaptionbox{Logo 2 \label{logo2}}
+	{\includegraphics[width=0.25\textwidth]{images/Logo/Logo2}}
+	\caption{Zwei Logos}\label{Logos}
+	\end{figure}
+
+	\newpage
+	\section*{Abbildungen 2}%\label{sec:Abbildungen2}\index{Abbildungen2}
+	%Logo in Neg, Grau, Schwarz (\autoref{fig:logoneggrauschwarz}).
+	%
+	\begin{figure}[!h]% hier: !hb
+		\centering
+		\begin{minipage}[b]{0.40\textwidth}
+			\includegraphics[width=\textwidth]{images/Logo/Logo-negativ}%
+		\end{minipage}
+		\hfill
+		\begin{minipage}[b]{0.30\textwidth}
+			\includegraphics[width=\textwidth]{images/Logo/Logo-Grau}%
+		\end{minipage}
+		\hfill
+		\begin{minipage}[b]{0.20\textwidth}
+			\includegraphics[width=\textwidth]{images/Logo/Logo-SW}%
+		\end{minipage}
+		\caption{Logo in Neg, Grau, Schwarz}\label{fig:logoneggrauschwarz}%% anpassen
+	\end{figure}
+
+	\newpage
+	\section*{Text und Abbildungen}%\label{sec:TAbbildungen}\index{Text, Abbildungen}
+	%Logo in Neg, Grau, Schwarz (\autoref{fig:logoneggrauschwarz}).
+	%
+	\begin{figure}[!h]% hier: !hb
+		\centering
+		\begin{minipage}[c]{0.55\textwidth}
+			Liste
+			\begin{itemize} 
+				\item Punkt
+				\item Punkt
+				\item Punkt
+				\item Punkt
+			\end{itemize}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[c]{0.35\textwidth}
+			\includegraphics[width=\textwidth]{images/Logo/Logo2}%
+		\end{minipage}
+		%\caption{Logo in Neg, Grau, Schwarz}\label{fig:logoneggrauschwarz}%% anpassen
+	\end{figure}
+
+	\newpage
+	\section*{Tabelle}%\label{sec:Tabelle}\index{Tabelle}
+
+	\begin{table}[!h]% hier: !ht 
+		\centering
+		\caption{\textbf{Integer-Datentypen}}
+		\label{tab:Integer-Datentypen}
+		\begin{tabular}{@{}lll@{}}
+		\toprule
+		\textbf{Typ}       & \textbf{Wertebereich}    & \textbf{Speicherbedarf} \\ \midrule
+		int                & –32768...32767           & 2 Bytes                 \\
+		int                & –2147483648...2147483647 & 4 Bytes                 \\
+		short int          & –32768...32767           & 2 Bytes                 \\
+		unsigned short int & 0...65535                & 2 Bytes                 \\
+		long int           & -2147483648...2147483647 & 4 Bytes                 \\
+		unsigned long int  & 0...4294967295           & 4 Bytes                 \\ \bottomrule
+		\end{tabular}%
+	\end{table}
+
+	%\input{content/tex/.tex}
+
+    % Bibliographie
+    \printbibliography[category=cited]
+\end{document}

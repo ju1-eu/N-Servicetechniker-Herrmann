@@ -1,0 +1,97 @@
+% ju 13-4-22 Moderator-Karten-Vorlage.tex
+% ju 12-5-22 Lerntools.tex
+\documentclass[a5paper,17pt,fleqn,parskip=half]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%\usepackage{lmodern}
+\usepackage[osf,sc]{mathpazo} 
+\usepackage[scale=.9,semibold]{sourcecodepro}   
+\usepackage[osf]{sourcesanspro}   
+
+%\usepackage[left=2cm,right=1cm,top=1cm,bottom=1cm,includeheadfoot]{geometry}
+%\usepackage[left=4cm,right=2cm,top=1cm, bottom=1cm,includeheadfoot]{geometry}
+\usepackage[landscape=true,left=6cm,right=1cm,top=1cm,bottom=0.5cm,includefoot]{geometry}%quer
+\usepackage{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+%\usepackage{blindtext}
+\usepackage{listings}
+\usepackage{eurosym}%\euro 20,-
+\usepackage{url}% Links
+\usepackage[inline]{enumitem}
+\usepackage{pifont}
+
+\definecolor{blau5}{cmyk}{1,0.77,0.1,0.01}  % 100,77,10,
+\definecolor{rot5}{cmyk}{0.22,1,1,0.19}     % 22,100,100,19
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\name}{Jan Unger}% anpassen!!!!!
+\newcommand{\thema}{Lerntools}% anpassen!!!!!
+\newcommand{\quelle}{\name}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\ihead{\textbf{Quelle:} \quelle}%{Kopfzeile innen}
+%\ohead{\textbf{Datum:} \today}  %{Kopfzeile außen}
+%\ifoot{\textbf{Thema:} \thema}  %{Fußzeile  innen}
+\ofoot{\pagemark}               %{Fußzeile  außen}
+
+\title{\thema}
+\author{\name}
+\date{\today}
+\begin{document}
+%\thispagestyle{empty}
+%\maketitle
+%\newpage
+%\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% \textcolor{rot5}{Folie 1}
+% \textbf{Fett}
+% \vspace{1em}%Abstand
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{\textcolor{rot5}{Folie 1}}
+
+( Sehr geehrte Damen und Herren, )
+
+Hallo \textcolor{rot5}{Frau Kühr}, Hallo Leute!
+
+\vspace{1em}%Abstand
+Ich heiße Jan Unger und
+\textbf{mein Thema} ist Zeit.
+
+\vspace{1em}%Abstand
+Während ich hier \textcolor{rot5}{stehe} (oder sitze!) 
+
+und mit dem Reden beginne, vergeht sie bereits.
+
+\newpage
+\subsection*{\textcolor{rot5}{Folie 2}}
+
+\newpage
+\subsection*{\textcolor{rot5}{Folie 3}}
+
+\textbf{Zusammenfassend} möchte ich sagen:
+
+Die Zeit ist das, was wir aus ihr machen.
+
+\vspace{1em}%Abstand
+Meine \textbf{Schlussbemerkung} an Euch ist,
+
+>>Genießt den Augenblick!<<.
+
+\vspace{1em}%Abstand
+Vielen Dank.
+
+\end{document}
